@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'package:zottz_otone/device_scan_activity.dart';
 import 'package:zottz_otone/firebase_service.dart';
+import 'package:zottz_otone/SingUp.dart';
 // import '../services/firebase_service.dart';
 
 class SignInScreen extends StatefulWidget {
@@ -72,7 +73,7 @@ class _SignInScreenState extends State<SignInScreen> {
             SizedBox(height: 10),
             TextButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/signup');
+               Navigator.push(context, MaterialPageRoute(builder:   (context) => SignUpScreen()));
               },
               child: Text('Create New User'),
             ),

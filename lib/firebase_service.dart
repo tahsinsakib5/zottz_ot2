@@ -5,7 +5,7 @@ import 'package:zottz_otone/firebase_datamodel.dart';
 
 class FirebaseService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-  final String _collectionName = 'users';
+  final String _collectionName = 'user_information';
 
   // Add new user information
   Future<void> addUserInformation(UserInformation userInfo) async {

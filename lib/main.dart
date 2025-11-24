@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:zottz_otone/firebase_options.dart';
+import 'package:zottz_otone/sign_inscrean.dart';
 import 'splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 void main() async {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Exercise App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: SplashScreen(),
+      home: SignInScreen(),
     );
   }
 }
