@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "823512435444",
+    "project_id": "zottz-4f12c",
+    "storage_bucket": "zottz-4f12c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823512435444:android:a31d2545fe55668f752ca1",
+        "android_client_info": {
+          "package_name": "com.example.zottz_ot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlZLZtzwxes9QhDLh-88vQlv-VeWqpoyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823512435444:android:7d8efd26f6dcee65752ca1",
+        "android_client_info": {
+          "package_name": "com.example.zottz_otone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlZLZtzwxes9QhDLh-88vQlv-VeWqpoyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
